@@ -1,4 +1,3 @@
-print("Try programiz.pro")
 word='aabbbcccdeeeffhg'
 lst=[]
 for each in word:
@@ -6,5 +5,6 @@ for each in word:
         continue
     else:
         lst.append(each)
-        
-print(lst)
+print(lst). #['a', 'b', 'c', 'd', 'e', 'f', 'h', 'g']
+output=' '.join(lst)
+print(output) #a b c d e f h g
