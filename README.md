@@ -3,7 +3,8 @@ Codes during practice
 
 
 ################################################################
-Average of 3 number: number=[int(x) for x in input("enter the 3 number seperated by sapce: ").split()]
+Average of 3 number: 
+number=[int(x) for x in input("enter the 3 number seperated by sapce: ").split()]
 print(number)
 average=sum(number)//len(number)
 print(average)
@@ -19,9 +20,11 @@ print(Area).
 #A=πr2
 import math
 radius=float(input("Enter the radius of the circle: "))
-Area=math  .pi*radius**2 
+Area=math.pi*radius**2 
 print(Area) 
-################################################################ EVEN or ODD: number=int(input("enter the numbers:"))
+################################################################
+ EVEN or ODD: 
+number=int(input("enter the numbers:"))
 print(number)
 if (number%2 == 0):
     print("The number is EVEN ")
@@ -42,7 +45,8 @@ else:
 
 
 ################################################################
-******grading system**** maths=int(input("enter the marks: "))
+******grading system**** 
+maths=int(input("enter the marks: "))
 science=int(input("enter the marks: "))
 social=int(input("enter the marks: "))
 if maths>35 and science>35 and social>35:
@@ -65,22 +69,29 @@ else:
 
 ################################################################
 
-********print 1 to 20 ********** x=1
+********print 1 to 20 ********** 
+x=1
 while(x<=20):
     print(x)
-    x+=1  ################################################################ Print odd numbers between the given 2 numbers
+    x+=1  
+################################################################ 
+Print odd numbers between the given 2 numbers
 
 MIN_number=int(input("enter the number:"))
 MAX_number=int(input("enter the number:"))
 print(f"The ODD numbers between the range of {MIN_number} and {MAX_number} are")
 i=MIN_number
 while(i<=MAX_number):
-    print("The ODD numbers between the range are : ", i)
+    if (i%2!=0):
+        print("The ODD numbers between the range are : ", i)
+    else:
+        i=+1
     i+=2
 
  ################################################################
 
-Table of given number:  Table_number=int(input("Enter the number : "))
+Table of given number:  
+Table_number=int(input("Enter the number : "))
 x=Table_number
 i=0
 for i in range(0,11):
